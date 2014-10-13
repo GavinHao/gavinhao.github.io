@@ -14,14 +14,30 @@
 	#container{
 		margin:0 auto;
 		width:800px;
+		height:1500px;
 		background-color: #555;
+	}
+	#header{
+		width: 800px;
+		height: 30px;
+		border-bottom-width: 2px;
+		border-color:#aaa;
+	}
+	#header h1 {
+		margin-left:50px;
+	}
+	#post {
+		margin-top: 10px;
+		
 	}
     </style>
 </head>
 <body>
 <div id="container">
-<div><img src="{{ site.baseurl }}/logo.png"/><a href="{{ site.baseurl }}/index.html" style=""><h1>Code Life</h1></a></div>
+	<div id="header"><img src="{{ site.baseurl }}/logo.png"/><a href="{{ site.baseurl }}/index.html" style=""><h1>Code Life</h1></a></div>
+	<div id="post">
     {{ content }}
-<div>
+    </div>
+</div>
 </body>
 </html>
