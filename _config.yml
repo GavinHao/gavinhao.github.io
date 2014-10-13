@@ -1,1 +1,3 @@
-baseurl: /
+baseurl: "" 
+markdown: redcarpet
+sitemapurl: "http://gavinhao.github.io"
