@@ -19,22 +19,24 @@
 	}
 	#header{
 		width: 800px;
-		height: 30px;
+		height: 80px;
 		border-bottom-width: 2px;
 		border-color:#aaa;
 	}
-	#header h1 {
-		margin-left:50px;
+	#header a{
+		margin-left:100px;
 	}
 	#post {
+		width: 800px;
+		height:auto;
 		margin-top: 10px;
-		
 	}
     </style>
 </head>
 <body>
 <div id="container">
-	<div id="header"><img src="{{ site.baseurl }}/logo.png"/><a href="{{ site.baseurl }}/index.html" style=""><h1>Code Life</h1></a></div>
+	<div id="header"><img src="{{ site.baseurl }}/logo.png"/><a href="{{ site.baseurl }}/index.html" style="">Code Life</a></div>
+
 	<div id="post">
     {{ content }}
     </div>
