@@ -67,16 +67,16 @@ JB :
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
-  archive_path: /archive.html
-  categories_path : /categories.html
-  tags_path : /tags.html
+  archive_path: /archive.md
+  categories_path : /categories.md
+  tags_path : /tags.md
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : 
+    provider : duoshuo
       short_name : gavinhao
    
   # Settings for analytics helper
