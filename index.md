@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Gavin's Blog
-tagline: Supporting tagline
+tagline: Duang Duang的进步
 ---
 {% include JB/setup %}
 # 博客列表
