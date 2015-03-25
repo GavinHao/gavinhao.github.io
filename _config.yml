@@ -76,7 +76,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : duoshuo
+    provider : 
       short_name : gavinhao
    
   # Settings for analytics helper
