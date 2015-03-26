@@ -23,7 +23,9 @@ group: navigation
  - 所在城市：杭州
 
 ---
+
 # 技能清单
+
 以下均为我熟练使用的技能
 
 - 语言：Java/Javascript/C/Go/Nodejs/Python
