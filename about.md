@@ -32,5 +32,3 @@ group: navigation
 - 数据库相关：MySQL/Redis
 - 版本管理、文档和自动化部署工具：Svn/Git/Maven
 - 单元测试：Junit
-
----
